@@ -1,0 +1,297 @@
+digraph g {
+node [shape = record,height=.1];
+node0[label = "[0] (toplevel).(null) (118, 0, 0)"]
+node3[label = "[3] com.android.internal.os.ZygoteInit.main (118, 0, 1)"]
+node4[label = "[4] com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (118, 0, 1)"]
+node5[label = "[5] java.lang.reflect.Method.invoke (118, 0, 1)"]
+node1[label = "[1] android.app.ActivityThread.main (118, 0, 1)"]
+node2[label = "[2] android.os.Looper.loop (118, 0, 1)"]
+node6[label = "[6] android.os.Handler.dispatchMessage (78, 0, 13)"]
+node7[label = "[7] android.app.ActivityThread$H.handleMessage (60, 0, 5)"]
+node8[label = "[8] android.app.ActivityThread.-wrap15 (57, 0, 3)"]
+node9[label = "[9] android.app.ActivityThread.handleRelaunchActivity (57, 0, 3)"]
+node10[label = "[10] android.app.ActivityThread.handleLaunchActivity (52, 0, 3)"]
+node11[label = "[11] android.app.ActivityThread.performLaunchActivity (47, 0, 3)"]
+node13[label = "[13] android.app.Instrumentation.callActivityOnCreate (40, 0, 3)"]
+node12[label = "[12] android.app.Activity.performCreate (40, 0, 3)"]
+node14[label = "[14] com.example.luiscruz.blankapp.MainActivity.onCreate (40, 0, 3)"]
+node17[label = "[17] android.support.v7.app.AppCompatActivity.setContentView (37, 0, 3)"]
+node18[label = "[18] android.support.v7.app.AppCompatDelegateImplV7.setContentView (37, 0, 3)"]
+node21[label = "[21] android.view.LayoutInflater.inflate (21, 0, 9)"]
+node22[label = "[22] android.view.LayoutInflater.inflate (21, 0, 9)"]
+node25[label = "[25] android.view.LayoutInflater.inflate (18, 0, 9)"]
+node23[label = "[23] android.view.LayoutInflater.createViewFromTag (18, 0, 13)"]
+node24[label = "[24] android.view.LayoutInflater.createViewFromTag (18, 0, 13)"]
+node37[label = "[37] android.view.LayoutInflater.createView (12, 0, 7)"]
+node38[label = "[38] java.lang.reflect.Constructor.newInstance (12, 0, 7)"]
+node53[label = "[53] android.support.v7.widget.Toolbar.<init> (5, 0, 3)"]
+node54[label = "[54] android.support.v7.widget.Toolbar.<init> (5, 0, 3)"]
+node115[label = "[115] android.support.v7.widget.TintTypedArray.getDrawable (3, 0, 3)"]
+node51[label = "[51] android.support.v7.widget.AppCompatDrawableManager.getDrawable (6, 0, 6)"]
+node52[label = "[52] android.support.v7.widget.AppCompatDrawableManager.getDrawable (6, 0, 6)"]
+node57[label = "[57] android.support.v4.content.ContextCompat.getDrawable (5, 0, 5)"]
+node58[label = "[58] android.support.v4.content.ContextCompatApi21.getDrawable (5, 0, 5)"]
+node56[label = "[56] android.content.Context.getDrawable (5, 0, 5)"]
+node70[label = "[70] android.content.res.Resources.getDrawable (4, 0, 4)"]
+node50[label = "[50] android.content.res.Resources.loadDrawable (6, 0, 6)"]
+node142[label = "[142] android.content.res.Resources.loadDrawableForCookie (2, 0, 2)"]
+node286[label = "[286] android.content.res.AssetManager.openNonAsset (1, 0, 1)"]
+node287[label = "[287] android.content.res.AssetManager.openNonAssetNative (1, 1, 1)"]
+node205[label = "[205] android.graphics.drawable.Drawable.createFromResourceStream (1, 0, 1)"]
+node202[label = "[202] android.graphics.BitmapFactory.decodeResourceStream (1, 0, 1)"]
+node203[label = "[203] android.graphics.BitmapFactory.decodeStream (1, 0, 1)"]
+node204[label = "[204] android.graphics.BitmapFactory.nativeDecodeAsset (1, 1, 1)"]
+node194[label = "[194] android.graphics.drawable.LayerDrawable.mutate (1, 0, 1)"]
+node192[label = "[192] android.graphics.drawable.GradientDrawable.mutate (1, 0, 1)"]
+node193[label = "[193] android.graphics.drawable.GradientDrawable.updateLocalState (1, 0, 1)"]
+node191[label = "[191] android.graphics.Paint.setColor (1, 1, 1)"]
+node134[label = "[134] android.support.v7.widget.TintTypedArray.obtainStyledAttributes (2, 0, 1)"]
+node41[label = "[41] android.content.Context.obtainStyledAttributes (11, 0, 10)"]
+node42[label = "[42] android.content.res.Resources$Theme.obtainStyledAttributes (10, 0, 9)"]
+node36[label = "[36] android.content.res.AssetManager.applyStyle (12, 12, 11)"]
+node198[label = "[198] android.view.ViewGroup.<init> (1, 0, 1)"]
+node72[label = "[72] android.view.ViewGroup.<init> (4, 0, 4)"]
+node46[label = "[46] android.view.View.<init> (6, 0, 6)"]
+node167[label = "[167] android.content.res.TypedArray.getDrawable (1, 0, 2)"]
+node66[label = "[66] android.support.v4.view.LayoutInflaterCompatHC$FactoryWrapperHC.onCreateView (4, 0, 5)"]
+node68[label = "[68] android.support.v7.app.AppCompatDelegateImplV7.onCreateView (4, 0, 5)"]
+node67[label = "[67] android.support.v7.app.AppCompatDelegateImplV7.createView (4, 0, 5)"]
+node69[label = "[69] android.support.v7.app.AppCompatViewInflater.createView (4, 0, 5)"]
+node138[label = "[138] android.support.v7.widget.AppCompatTextView.<init> (2, 0, 3)"]
+node139[label = "[139] android.support.v7.widget.AppCompatTextView.<init> (2, 0, 3)"]
+node64[label = "[64] android.widget.TextView.<init> (4, 0, 5)"]
+node65[label = "[65] android.widget.TextView.<init> (4, 0, 5)"]
+node87[label = "[87] android.content.res.TypedArray.getColorStateList (4, 0, 4)"]
+node59[label = "[59] android.content.res.Resources.loadColorStateList (4, 0, 5)"]
+node279[label = "[279] android.content.res.ConfigurationBoundResourceCache.put (1, 0, 1)"]
+node281[label = "[281] android.content.res.ThemedResourceCache.put (1, 0, 1)"]
+node280[label = "[280] android.content.res.ConfigurationBoundResourceCache.put (1, 0, 1)"]
+node170[label = "[170] android.content.res.ThemedResourceCache.put (1, 0, 2)"]
+node118[label = "[118] android.content.res.ThemedResourceCache.getThemedLocked (2, 0, 3)"]
+node284[label = "[284] android.util.ArrayMap.<init> (1, 0, 1)"]
+node285[label = "[285] android.util.ArrayMap.allocArrays (1, 1, 1)"]
+node126[label = "[126] android.util.ArrayMap.get (2, 0, 3)"]
+node127[label = "[127] android.util.ArrayMap.indexOfKey (2, 0, 3)"]
+node372[label = "[372] java.lang.String.hashCode (0, 0, 1)"]
+node169[label = "[169] android.util.ArrayMap.indexOf (1, 0, 2)"]
+node168[label = "[168] android.content.res.Resources$ThemeKey.equals (1, 1, 2)"]
+node120[label = "[120] android.content.res.Resources.loadColorStateListForCookie (2, 0, 3)"]
+node166[label = "[166] android.content.res.XmlBlock$Parser.close (1, 1, 2)"]
+node388[label = "[388] android.content.res.XmlBlock.-wrap15 (0, 0, 1)"]
+node389[label = "[389] android.content.res.XmlBlock.nativeDestroyParseState (0, 0, 1)"]
+node49[label = "[49] android.content.res.Resources.loadXmlResourceParser (6, 0, 6)"]
+node48[label = "[48] android.content.res.AssetManager.openXmlBlockAsset (6, 0, 6)"]
+node47[label = "[47] android.content.res.AssetManager.openXmlAssetNative (6, 6, 6)"]
+node262[label = "[262] android.content.res.ConfigurationBoundResourceCache.getInstance (1, 0, 1)"]
+node261[label = "[261] android.content.res.ConfigurationBoundResourceCache.get (1, 0, 1)"]
+node263[label = "[263] android.content.res.ThemedResourceCache.get (1, 0, 1)"]
+node206[label = "[206] android.content.res.Resources$Theme.obtainStyledAttributes (1, 0, 1)"]
+node405[label = "[405] android.support.v7.widget.AppCompatTextHelperV17.loadFromAttributes (0, 0, 1)"]
+node404[label = "[404] android.support.v7.widget.AppCompatTextHelper.loadFromAttributes (0, 0, 1)"]
+node133[label = "[133] android.support.v7.app.AppCompatViewInflater.themifyContext (2, 0, 2)"]
+node28[label = "[28] android.view.LayoutInflater.rInflateChildren (14, 0, 7)"]
+node27[label = "[27] android.view.LayoutInflater.rInflate (14, 0, 7)"]
+node19[label = "[19] android.support.v7.app.AppCompatDelegateImplV7.ensureSubDecor (33, 0, 3)"]
+node20[label = "[20] android.support.v7.app.AppCompatDelegateImplV7.createSubDecor (29, 0, 3)"]
+node43[label = "[43] android.view.Window.findViewById (8, 0, 3)"]
+node44[label = "[44] com.android.internal.policy.PhoneWindow.getDecorView (8, 0, 3)"]
+node45[label = "[45] com.android.internal.policy.PhoneWindow.installDecor (8, 0, 3)"]
+node100[label = "[100] com.android.internal.policy.PhoneWindow.getTransition (3, 0, 3)"]
+node99[label = "[99] android.transition.TransitionInflater.inflateTransition (3, 0, 3)"]
+node233[label = "[233] android.transition.TransitionInflater.createTransitionFromXml (1, 0, 1)"]
+node234[label = "[234] java.lang.String.equals (1, 1, 1)"]
+node149[label = "[149] android.content.res.Resources.getXml (2, 0, 2)"]
+node55[label = "[55] android.content.res.Resources.loadXmlResourceParser (5, 0, 5)"]
+node97[label = "[97] com.android.internal.policy.PhoneWindow.generateLayout (3, 0, 3)"]
+node147[label = "[147] com.android.internal.policy.PhoneWindow.generateDecor (2, 0, 2)"]
+node148[label = "[148] com.android.internal.policy.PhoneWindow$DecorView.<init> (2, 0, 2)"]
+node272[label = "[272] android.content.res.Resources.getInteger (1, 0, 1)"]
+node273[label = "[273] android.content.res.Resources.getValue (1, 0, 1)"]
+node271[label = "[271] android.content.res.AssetManager.getResourceValue (1, 0, 1)"]
+node152[label = "[152] android.content.res.AssetManager.loadResourceValue (2, 2, 2)"]
+node299[label = "[299] android.view.animation.AnimationUtils.loadInterpolator (1, 0, 1)"]
+node298[label = "[298] android.view.animation.AnimationUtils.createInterpolatorFromXml (1, 0, 1)"]
+node297[label = "[297] android.content.res.XmlBlock$Parser.getName (1, 0, 1)"]
+node295[label = "[295] android.content.res.StringBlock.get (1, 0, 1)"]
+node296[label = "[296] android.content.res.StringBlock.nativeGetSize (1, 1, 1)"]
+node26[label = "[26] android.os.Handler.handleCallback (17, 1, 6)"]
+node32[label = "[32] android.view.Choreographer$FrameDisplayEventReceiver.run (13, 0, 7)"]
+node30[label = "[30] android.view.Choreographer.doFrame (13, 0, 7)"]
+node29[label = "[29] android.view.Choreographer.doCallbacks (13, 0, 7)"]
+node31[label = "[31] android.view.Choreographer$CallbackRecord.run (13, 0, 7)"]
+node35[label = "[35] android.view.ViewRootImpl$TraversalRunnable.run (13, 0, 6)"]
+node33[label = "[33] android.view.ViewRootImpl.doTraversal (13, 0, 6)"]
+node34[label = "[34] android.view.ViewRootImpl.performTraversals (13, 0, 6)"]
+node88[label = "[88] android.view.ThreadedRenderer.setup (3, 0, 2)"]
+node119[label = "[119] android.view.ThreadedRenderer.nSetup (2, 2, 1)"]
+node320[label = "[320] android.view.ThreadedRenderer.setLightCenter (1, 0, 1)"]
+node319[label = "[319] android.view.Display.getRealSize (1, 0, 1)"]
+node128[label = "[128] android.view.Display.updateDisplayInfoLocked (2, 0, 5)"]
+node116[label = "[116] android.hardware.display.DisplayManagerGlobal.getDisplayInfo (2, 0, 6)"]
+node117[label = "[117] android.hardware.display.IDisplayManager$Stub$Proxy.getDisplayInfo (2, 0, 6)"]
+node39[label = "[39] android.os.BinderProxy.transact (12, 0, 24)"]
+node40[label = "[40] android.os.BinderProxy.transactNative (12, 12, 24)"]
+node71[label = "[71] android.view.ViewRootImpl.performMeasure (4, 0, 6)"]
+node292[label = "[292] android.os.Trace.traceBegin (1, 0, 1)"]
+node291[label = "[291] android.os.Trace.isTagEnabled (1, 1, 1)"]
+node90[label = "[90] android.view.View.measure (3, 0, 5)"]
+node96[label = "[96] com.android.internal.policy.PhoneWindow$DecorView.onMeasure (3, 0, 5)"]
+node93[label = "[93] android.widget.FrameLayout.onMeasure (3, 0, 5)"]
+node91[label = "[91] android.view.ViewGroup.measureChildWithMargins (3, 0, 5)"]
+node92[label = "[92] android.view.ViewRootImpl.measureHierarchy (3, 0, 5)"]
+node15[label = "[15] android.os.MessageQueue.next (39, 0, 14)"]
+node16[label = "[16] android.os.MessageQueue.nativePollOnce (39, 36, 14)"]
+node0 -> node3
+node3 -> node4
+node4 -> node5
+node5 -> node1
+node1 -> node2
+node2 -> node6
+node6 -> node7
+node7 -> node8
+node8 -> node9
+node9 -> node10
+node10 -> node11
+node11 -> node13
+node13 -> node12
+node12 -> node14
+node14 -> node17
+node17 -> node18
+node18 -> node21
+node21 -> node22
+node22 -> node25
+node25 -> node23
+node23 -> node24
+node24 -> node37
+node37 -> node38
+node38 -> node53
+node53 -> node54
+node54 -> node115
+node115 -> node51
+node51 -> node52
+node52 -> node57
+node57 -> node58
+node58 -> node56
+node56 -> node70
+node70 -> node50
+node50 -> node142
+node142 -> node286
+node286 -> node287
+node142 -> node205
+node205 -> node202
+node202 -> node203
+node203 -> node204
+node50 -> node194
+node194 -> node192
+node192 -> node193
+node193 -> node191
+node54 -> node134
+node134 -> node41
+node41 -> node42
+node42 -> node36
+node54 -> node198
+node198 -> node72
+node72 -> node46
+node46 -> node41
+node46 -> node167
+node167 -> node50
+node24 -> node66
+node66 -> node68
+node68 -> node67
+node67 -> node69
+node69 -> node138
+node138 -> node139
+node139 -> node64
+node64 -> node65
+node65 -> node87
+node87 -> node59
+node59 -> node279
+node279 -> node281
+node281 -> node280
+node280 -> node170
+node170 -> node118
+node118 -> node284
+node284 -> node285
+node118 -> node126
+node126 -> node127
+node127 -> node372
+node127 -> node169
+node169 -> node168
+node59 -> node120
+node120 -> node166
+node166 -> node388
+node388 -> node389
+node120 -> node49
+node49 -> node48
+node48 -> node47
+node59 -> node262
+node262 -> node261
+node261 -> node263
+node263 -> node118
+node65 -> node206
+node206 -> node36
+node139 -> node405
+node405 -> node404
+node404 -> node41
+node69 -> node133
+node133 -> node41
+node25 -> node28
+node28 -> node27
+node27 -> node23
+node27 -> node28
+node18 -> node19
+node19 -> node20
+node20 -> node43
+node43 -> node44
+node44 -> node45
+node45 -> node100
+node100 -> node99
+node99 -> node233
+node233 -> node234
+node99 -> node149
+node149 -> node55
+node55 -> node49
+node45 -> node97
+node97 -> node21
+node45 -> node147
+node147 -> node148
+node148 -> node272
+node272 -> node273
+node273 -> node271
+node271 -> node152
+node148 -> node299
+node299 -> node298
+node298 -> node297
+node297 -> node295
+node295 -> node296
+node20 -> node21
+node6 -> node26
+node26 -> node32
+node32 -> node30
+node30 -> node29
+node29 -> node31
+node31 -> node35
+node35 -> node33
+node33 -> node34
+node34 -> node88
+node88 -> node119
+node88 -> node320
+node320 -> node319
+node319 -> node128
+node128 -> node116
+node116 -> node117
+node117 -> node39
+node39 -> node40
+node34 -> node71
+node71 -> node292
+node292 -> node291
+node71 -> node90
+node90 -> node96
+node96 -> node93
+node93 -> node91
+node91 -> node90
+node34 -> node92
+node92 -> node71
+node2 -> node15
+node15 -> node16
+}
